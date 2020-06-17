@@ -9,9 +9,13 @@ int main(int argc, char const *argv[]){
   L= insertar(10,0,L);
   L= insertar(20,1,L);
   L= insertar(30,2,L);
-	L= insertar(40,3,L);
-	mostrar(L);
-	media = promedio(L);
-	printf("El promedio de la lista es: %f \n", media);
-	return 0;
+  L= insertar(40,3,L);
+  mostrar(L);
+  media = promedio(L);
+  printf("El promedio de la lista es: %f \n", media);
+  return 0;
+}
+
+void promedio(){
+
 }
