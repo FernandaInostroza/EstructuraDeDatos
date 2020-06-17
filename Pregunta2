@@ -17,5 +17,11 @@ int main(int argc, char const *argv[]){
 }
 
 void promedio(){
-
+  
+  while(){
+  
+    suma = suma + dato;
+    cont = cont++
+  }
+  
 }
