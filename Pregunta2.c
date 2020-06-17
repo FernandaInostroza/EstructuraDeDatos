@@ -32,10 +32,3 @@ void promedio(){
   promedio = suma/cont;
   return L;
 }
-
-/*void mostrar(struct lista *L){
-	int i;
-	for(i=0;i<L->ultimo;i++)
-		printf("%i - ", L->arreglo[i]);
-	printf("\n");
-}*/
