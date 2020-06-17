@@ -19,7 +19,7 @@ int main(int argc, char const *argv[]){
   return 0;
 }
 /*---------------Funcion promedio-----------------*/
-void promedio(){
+void promedio(struct lista *L){
 	
   int suma=0, promedio=0, i, cont=0;
 //ciclo que recorre la lista	
