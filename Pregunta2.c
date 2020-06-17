@@ -19,7 +19,7 @@ int main(int argc, char const *argv[]){
 
 void promedio(){
   int suma, cont;
-  while(){
+  for(i=0, i<L->ultimo;i++){
     /*suma los valores*/
     suma = suma + dato;
     /*contador cant de valores*/
@@ -27,3 +27,10 @@ void promedio(){
   }
   promedio = suma/cont;
 }
+
+/*void mostrar(struct lista *L){
+	int i;
+	for(i=0;i<L->ultimo;i++)
+		printf("%i - ", L->arreglo[i]);
+	printf("\n");
+}*/
