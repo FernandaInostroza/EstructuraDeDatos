@@ -17,4 +17,6 @@ int main(int argc, char const *argv[]){
 	return 0;
 }
 
+void busqueda_binaria(int dato, struct lista *L){
 
+}
