@@ -1,1 +1,20 @@
+int main(int argc, char const *argv[]){
+	int posicion;
+	/*struct lista *L = crear();*/
+	struct lista *L; //declaramos la lista
+	L = constructor();
+	L= insertar(10,0,L);
+	L= insertar(20,1,L);
+	L= insertar(30,2,L);
+	L= insertar(40,3,L);
+	mostrar(L);
+	posicion = busqueda_binaria(30,L);
+	if(posicion==-1){
+		printf("el elemento no se encuentra en la lista!\n");
+	}else{
+		printf("el elemento se encuentra en la posicion: %f \n", posicion);
+	}
+	return 0;
+}
+
 
