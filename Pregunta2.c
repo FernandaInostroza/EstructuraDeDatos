@@ -18,12 +18,14 @@ int main(int argc, char const *argv[]){
 }
 
 void promedio(){
-  int suma, cont;
+	
+  int suma, promedio, i, cont;
+	
   for(i=0, i<L->ultimo;i++){
     /*suma los valores*/
-    suma = suma + dato;
+    suma = suma + L->arreglo[i];
     /*contador cant de valores*/
-    cont = cont++
+    cont = cont++;
   }
   promedio = suma/cont;
 }
