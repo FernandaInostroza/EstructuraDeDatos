@@ -25,9 +25,10 @@ void promedio(){
     /*suma los valores*/
     suma = suma + L->arreglo[i];
     /*contador cant de valores*/
-    cont = cont++;
+    cont = i+1;
   }
   promedio = suma/cont;
+  return L;
 }
 
 /*void mostrar(struct lista *L){
