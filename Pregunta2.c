@@ -5,7 +5,8 @@
 int main(int argc, char const *argv[]){
 
   float media;
-  struct lista *L;
+  /*struct lista *L = crear();*/
+  struct lista *L; //se decidio hacer el cambio ya que no compilaba
   L = constructor();
   L= constructor();
   L= insertar(10,0,L);
