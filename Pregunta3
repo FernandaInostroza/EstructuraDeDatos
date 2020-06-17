@@ -18,5 +18,17 @@ int main(int argc, char const *argv[]){
 }
 
 void busqueda_binaria(int dato, struct lista *L){
+	int posicion=0,i, arr=0;
 
+	for(i=0; i<L->ultimo;i++){
+		arr= L->arreglo[i];
+		if(dato == arr){
+			posicion = i;
+			return posicion;
+		}
+		if(arr==NULL){
+			posicion = -1;
+			return posicion;
+		}
+	}
 }
