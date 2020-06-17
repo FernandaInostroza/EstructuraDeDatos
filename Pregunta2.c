@@ -18,11 +18,11 @@ int main(int argc, char const *argv[]){
   printf("El promedio de la lista es: %f \n", media);
   return 0;
 }
-
+/*---------------Funcion promedio-----------------*/
 void promedio(){
 	
-  int suma, promedio, i, cont;
-	
+  int suma=0, promedio=0, i, cont=0;
+//ciclo que recorre la lista	
   for(i=0, i<L->ultimo;i++){
     /*suma los valores*/
     suma = suma + L->arreglo[i];
