@@ -1,3 +1,4 @@
+/* crear funcion promedio() que retorne el promedio de los elementos de la lista*/
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -17,11 +18,12 @@ int main(int argc, char const *argv[]){
 }
 
 void promedio(){
-  
+  int suma, cont;
   while(){
-  
+    /*suma los valores*/
     suma = suma + dato;
+    /*contador cant de valores*/
     cont = cont++
   }
-  
+  promedio = suma/cont;
 }
